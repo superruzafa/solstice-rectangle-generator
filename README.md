@@ -1,0 +1,1 @@
+# Solstice Rectangle Calculator
