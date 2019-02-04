@@ -4,8 +4,23 @@
     <meta charset="utf-8" />
     <title>Solstice Rectangle Calculator</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="solstice.js"></script>
 </head>
 <body>
-    <h1>Solstice Rectangle Calculator</h1>
+    <div id="app-container">
+        <div id="app-controls">
+            <div id="app-variables">
+                <label for="coordinates">Coordinates</label>
+                <input id="coordinates" type="text">
+                <label for="north-azimuth">North azimuth</label>
+                <input id="north-azimuth" type="text">
+                <label for="k">K</label>
+                <input id="k" type="text">
+            </div>
+        </div>
+    </div>
+    <script>
+        var app = new solstice.App();
+    </script>
 </body>
 </html>

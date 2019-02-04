@@ -2,3 +2,23 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  height: calc(100vh);
+  overflow: hidden;
+}
+
+#app-container {
+  height: 100%;
+}
+
+#app-controls {
+  height: 100%;
+  width: 300px;
+}
+
+#app-variables {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 10px;
+}
